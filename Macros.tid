@@ -1,0 +1,13 @@
+created: 20200609205219656
+creator: ed
+modified: 20200610134748470
+modifier: ed
+tags: $:/tags/Macro
+title: $:/plugins/ejheil/ExplicitTransclusion/Macros
+
+\define xtc(tiddler)
+{{$tiddler$||$:/plugins/ejheil/ExplicitTransclusion/Template}}
+\end
+\define xtcCurrent()
+{{$(currentTiddler)$||$:/plugins/ejheil/ExplicitTransclusion/Template}}
+\end

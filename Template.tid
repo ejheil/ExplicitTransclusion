@@ -1,7 +1,6 @@
 created: 20200609125530603
 modified: 20200609144036119
-tags: ExplicitTransclusion
-title: $:/plugins/ejheil/ExplicitTransclusion/XTC
+title: $:/plugins/ejheil/ExplicitTransclusion/Template
 
 <$list filter="[all[current]![TranscludeTemplate]]">
 <div class="explicit-transclusion-wrapper">
