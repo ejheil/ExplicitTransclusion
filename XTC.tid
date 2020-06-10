@@ -1,0 +1,15 @@
+created: 20200609125530603
+modified: 20200609144036119
+tags: ExplicitTransclusion
+title: $:/plugins/ejheil/ExplicitTransclusion/XTC
+
+<$list filter="[all[current]![TranscludeTemplate]]">
+<div class="explicit-transclusion-wrapper">
+
+<$link class="explicit-transclusion-link" />
+
+{{!!text}}
+
+<div style="clear:both;"/>
+</div>
+</$list>

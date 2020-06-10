@@ -1,0 +1,17 @@
+created: 20200609130343952
+modified: 20200609173521814
+tags: $:/tags/Stylesheet ExplicitTransclusion
+title: $:/plugins/ejheil/ExplicitTransclusion/ExplicitTransclusionCSS
+type: text/css
+
+.explicit-transclusion-wrapper {
+  box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 5px 0px
+}
+
+.explicit-transclusion-link {
+  float: right;
+  font-size: small;
+  border: solid 1px lightgray;
+  border-radius: 5px;
+  padding: 5px;
+}
