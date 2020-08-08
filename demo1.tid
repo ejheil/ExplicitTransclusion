@@ -1,0 +1,22 @@
+created: 20200808221402464
+modified: 20200808221956364
+tags: 
+title: $:/plugins/ejheil/ExplicitTransclusion/demo1
+
+! xtc macro
+
+This is a tiddler with an explicit transclusion of $:/plugins/ejheil/ExplicitTransclusion/demo2, acomplished with `<<xtc "$:/plugins/ejheil/ExplicitTransclusion/demo2">>`
+
+
+<<xtc "$:/plugins/ejheil/ExplicitTransclusion/demo2">>
+
+! xtcCurrent macro
+
+And here's the use of `<<xtcCurrent>>` inside a list box:
+<$list filter="[[$:/plugins/ejheil/ExplicitTransclusion/demo2]] [[$:/plugins/ejheil/ExplicitTransclusion/demo3]] [[$:/plugins/ejheil/ExplicitTransclusion/demo4]]">
+
+<<xtcCurrent>>
+
+</$list>
+
+

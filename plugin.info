@@ -1,9 +1,14 @@
 {
     "title": "$:/plugins/ejheil/ExplicitTransclusion",
-    "description": "ExplicitTransclusion: Template to make transclusions obvious/accessible",
     "author": "Ed Heil",
-    "version": "0.0.4",
     "core-version": ">=5.0.8",
+    "created": "20200808220420674",
+    "dependents": "",
+    "description": "ExplicitTransclusion: Template to make transclusions obvious/accessible",
+    "list": "readme",
+    "modified": "20200808222818874",
+    "name": "ExplicitTransclusion",
+    "plugin-type": "plugin",
     "source": "https://github.com/ejheil/ExplicitTransclusion",
-    "plugin-type": "plugin"
+    "version": "0.0.5"
 }

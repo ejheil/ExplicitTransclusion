@@ -1,0 +1,23 @@
+created: 20200808220527573
+modified: 20200808221047006
+tags: 
+title: $:/plugins/ejheil/ExplicitTransclusion/readme
+
+! ~ExplicitTransclusion
+
+I often transclude a tiddler for the sake of increased chopped-up-into-tiddlerness, but then later on I'll want to edit it, click on the tiddler that contains the transclusion, and then have to go search for that transcluded tiddler in the search bar in order to find it and edit it. It'd be nice if it was obvious it was a transclusion and contained a link to the transcluded tiddler itself.  So I made this.
+
+It's just a template called $:/plugins/ejheil/ExplicitTransclusion/Template, some CSS to style it, and a couple macros to call it.
+
+```
+<<xtc "tiddlername">>
+```
+
+transcludes "tiddlername" through the $:/plugins/ejheil/ExplicitTransclusion/Template template.
+
+```
+<<xtcCurrent>>
+```
+transcludes the `<<currentTiddler>>` through the $:/plugins/ejheil/ExplicitTransclusion/Template template.  It'd be useful while cycling through a list.
+
+And that's it!
